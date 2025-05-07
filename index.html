@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tarun Paint - Daily Form</title>
+
+  <meta name="description" content="Tarun Paint - Daily Form" />
+  <link rel="icon" href="logo.jpg" type="image/jpeg" />
+  <link rel="apple-touch-icon" href="logo.jpg" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="Tarun Paint - Daily Form" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <link rel="manifest" href="manifest.json" />
+
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background: linear-gradient(
+        135deg,
+        rgba(255,0,0,0.5),
+        rgba(255,165,0,0.5),
+        rgba(255,255,0,0.5),
+        rgba(0,128,0,0.5),
+        rgba(0,0,255,0.5),
+        rgba(75,0,130,0.5),
+        rgba(238,130,238,0.5)
+      );
+      background-size: 400% 400%;
+      animation: gradientFlow 10s ease infinite;
+    }
+
+    @keyframes gradientFlow {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    iframe {
+      border: none;
+      width: 100%;
+      height: 100%;
+      backdrop-filter: blur(6px);
+    }
+  </style>
+</head>
+<body>
+  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdCHqosKO_QUYN9sO0IpqE63pihUZ2u0v13e-cIEbYzdIqx_w/viewform?embedded=true" allowfullscreen></iframe>
+</body>
+</html>
